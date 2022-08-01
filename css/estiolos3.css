@@ -1,0 +1,39 @@
+*{
+    margin:none;
+    padding:none;
+}
+.padre{
+    background: #7216af;
+    width: 80%;
+    margin: 20px auto;
+    height: 600px;
+    display:flex;
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/ 
+    /*flex-wrap: nowrap;*/
+    /*flex-direction: row;*/
+    /*flex-direction:row-reverse;*/
+    /*flex-direction: column;
+    flex-direction: column-reverse;*/
+
+
+}
+
+.hijo{
+    background: coral;
+    width: 25%;
+    height: 100px;
+    /*margin: 10px; */
+}
+
+@media screen and (max-width:800px){
+    .hijo{
+        width:40%
+    }
+}
+
+@media screen and (max-width:400px){
+    .hijo{
+        width:90%
+    }
+}
